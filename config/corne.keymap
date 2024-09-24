@@ -1,0 +1,25 @@
+/* source key position labels */
+#include "zmk-helpers/key-labels/42.h"
+
+/* map the Glove's extra keys */
+#define X_LT    &kp TAB
+#define X_RT    &kp BACKSLASH
+
+#define X_LM    &kp ESC
+#define X_RM    &none
+
+#define X_LB    &none
+#define X_RB    &none
+
+#define X_LH    &kp TAB
+#define X_RH    &kp LALT
+
+/* 3 thumb buttons */
+#define LH2
+
+/* activate bluetooth */
+#define CONFIG_WIRELESS
+
+/* source the main keymap */
+#include "base.keymap"
+
