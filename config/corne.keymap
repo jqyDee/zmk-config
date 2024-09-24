@@ -1,18 +1,19 @@
 /* source key position labels */
 #include "zmk-helpers/key-labels/42.h"
+#include "zmk-helpers/unicode-chars/german.dtsi"
 
 /* map the Glove's extra keys */
 #define X_LT    &kp TAB
-#define X_RT    &kp BACKSLASH
+#define X_RT    &de_ue
 
 #define X_LM    &kp ESC
-#define X_RM    &none
+#define X_RM    &de_ae
 
-#define X_LB    &none
-#define X_RB    &none
+#define X_LB    &kp LSHFT
+#define X_RB    &kp FSLH
 
-#define X_LH    &kp TAB
-#define X_RH    &kp LALT
+#define X_LH    &kp LALT
+#define X_RH    &kp RCTRL
 
 /* activate bluetooth */
 #define CONFIG_WIRELESS
