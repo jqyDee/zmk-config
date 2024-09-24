@@ -14,9 +14,6 @@
 #define X_LH    &kp TAB
 #define X_RH    &kp LALT
 
-/* 3 thumb buttons */
-#define LH2
-
 /* activate bluetooth */
 #define CONFIG_WIRELESS
 
