@@ -155,14 +155,6 @@ ZMK_TRI_STATE(swapper,
         bindings = <BINDING1>, <BINDING2>; \
     )
 
-// tap: comma | shift + tap: semicolon | ctrl + shift + tap: <
-SIMPLE_MORPH(comma_morph, SFT, &kp COMMA, &comma_inner_morph)
-SIMPLE_MORPH(comma_inner_morph, CTL, &kp SEMICOLON, &kp LESS_THAN)
-
-// tap: dot | shift + tap: colon | ctrl + shift + tap: >
-SIMPLE_MORPH(dot_morph, SFT, &kp DOT, &dot_inner_morph)
-SIMPLE_MORPH(dot_inner_morph, CTL, &kp COLON, &kp GREATER_THAN)
-
 // tap: qmark | shift + tap: excl
 SIMPLE_MORPH(qexcl, SFT, &kp QMARK, &kp EXCL)
 
@@ -226,7 +218,7 @@ ZMK_LAYER(base,
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
     X_LM     &hml LGUI A   &hml LALT S   &hml LCTRL D  &hml LSHFT F  &kp G           X_MM     &kp H         &hmr LSHFT J  &hmr RCTRL K  &hmr LALT L   &hmr LGUI SEMI  X_RM
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LB     &kp Y         &kp X         &kp C         &kp V         &kp B           X_MB     &kp N         &kp M         &comma_morph  &dot_morph    &kp FSLH        X_RB
+    X_LB     &kp Y         &kp X         &kp C         &kp V         &kp B           X_MB     &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH        X_RB
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
     X_LH                                               SMART_NUM     &lt NAV BSPC    X_MH     &lt_spc FN 0  &kp RET                                                   X_RH
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
