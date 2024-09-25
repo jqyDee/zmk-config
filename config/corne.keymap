@@ -4,16 +4,16 @@
 
 /* map the Glove's extra keys */
 #define X_LT    &kp TAB
-#define X_RT    &de_ue
+#define X_RT    &kp LBKT
 
 #define X_LM    &kp ESC
-#define X_RM    &de_ae
+#define X_RM    &kp COLON
 
 #define X_LB    &kp LSHFT
 #define X_RB    &kp FSLH
 
 #define X_LH    &kp LALT
-#define X_RH    &kp RCTRL
+#define X_RH    &mo SYM  
 
 /* activate bluetooth */
 #define CONFIG_WIRELESS
