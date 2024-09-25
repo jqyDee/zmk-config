@@ -7,7 +7,7 @@
 #define X_RT    &kp LBKT
 
 #define X_LM    &kp ESC
-#define X_RM    &kp ACCENT
+#define X_RM    &kp SQT
 
 #define X_LB    &kp LSHFT
 #define X_RB    &kp FSLH
