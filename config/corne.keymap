@@ -7,13 +7,13 @@
 #define X_RT    &kp LBKT
 
 #define X_LM    &kp ESC
-#define X_RM    &kp COLON
+#define X_RM    &kp ACCENT
 
 #define X_LB    &kp LSHFT
 #define X_RB    &kp FSLH
 
-#define X_LH    &kp LALT
-#define X_RH    &mo SYM  
+#define X_LH    &mo SYM
+#define X_RH    &mo SYM
 
 /* activate bluetooth */
 #define CONFIG_WIRELESS
