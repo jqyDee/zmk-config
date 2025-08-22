@@ -147,7 +147,7 @@ ZMK_MACRO(win_sleep,
 )
 
 // misc aliases
-#define CANCEL      &kp K_CANCEL             // cancel caps-word, num-word and smart-mouse
+#define CANCEL      &kp       // cancel caps-word, num-word and smart-mouse
 #define VOL_DOWN    &hmr RSHFT C_VOL_DN
 #define VOL_UP      &hmr RCTRL C_VOL_UP
 #define EURO        &hml LCTRL LA(E)
@@ -208,9 +208,9 @@ ZMK_LAYER(sym,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
     &kp EXCL &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT   &kp CARET       X_MT     &kp AMPS      &kp STAR      &kp LPAR      &kp RPAR      &kp UNDER       &kp PLUS
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LM     &sk LGUI      &sk LALT      EURO          &sk LSHFT     &kp GRAVE       X_MM     &kp LS(LA(N7)) &kp LA(N5)   &kp LA(N6)    ___           ___             &kp NUHS
+    X_LM     &sk LGUI      &sk LALT      EURO          &sk LSHFT     &kp GRAVE       X_MM     &kp LS(LA(N7)) &kp LA(N5)   &kp LA(N6)    ___           &kp TILDE2      &kp NUHS
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LB     &lt_gt        ___           ___           ___           &kp TILDE2      X_MB     &kp LA(N7)    &kp LA(N8)    &kp LA(N9)    &kp LA(L)     ___             &kp RBKT
+    X_LB     &lt_gt        &kp APOS      ___           ___           &kp LS(GRAVE)   X_MB     &kp LA(N7)    &kp LA(N8)    &kp LA(N9)    &kp LA(L)     ___             &kp RBKT
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
     X_LH                                               ___           ___             X_MH     ___           ___                                                       X_RH
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
