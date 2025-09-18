@@ -9,7 +9,7 @@
 #define X_RM    &kp SQT
 
 #define X_LB    &kp LSHFT
-#define X_RB    &kp FSLH
+#define X_RB    &kp RSHFT
 
 #define X_LH    &mo SYM
 #define X_RH    &mo SYM
