@@ -10,6 +10,8 @@
 
 #include "zmk-helpers/helper.h"
 
+# recompile
+
 #define DEF 0
 #define NAV 1
 #define FN 2
