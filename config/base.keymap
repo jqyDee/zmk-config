@@ -140,7 +140,7 @@ ZMK_MACRO(dot_spc,
 )
 
 // tap: < | shift + tap: >
-SIMPLE_MORPH(lt_gt, SFT, &kp NUBS, &kp LS(NUBS))
+SIMPLE_MORPH(lt_gt, SFT, &kp GRAVE, &kp LS(GRAVE))
 
 // Windows sleep key
 ZMK_MACRO(win_sleep,
@@ -209,9 +209,9 @@ ZMK_LAYER(sym,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
     &kp EXCL &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT   &kp CARET       X_MT     &kp AMPS      &kp STAR      &kp LPAR      &kp RPAR      &kp UNDER       &kp PLUS
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LM     &sk LGUI      &sk LALT      EURO          &sk LSHFT     &kp GRAVE       X_MM     &kp LS(LA(N7)) &kp LA(N5)   &kp LA(N6)    ___           &kp TILDE2      &kp NUHS
+    X_LM     &sk LGUI      &sk LALT      EURO          &sk LSHFT     ___             X_MM     &kp LS(LA(N7)) &kp LA(N5)   &kp LA(N6)    ___           &kp TILDE2      &kp NUHS
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    X_LB     &lt_gt        &kp LA(N)     ___           ___           &kp LS(GRAVE)   X_MB     &kp LA(N7)    &kp LA(N8)    &kp LA(N9)    &kp LA(L)     ___             &kp RBKT
+    X_LB     &lt_gt        &kp LA(N)     ___           ___           ___             X_MB     &kp LA(N7)    &kp LA(N8)    &kp LA(N9)    &kp LA(L)     ___             &kp RBKT
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
     X_LH                                               ___           ___             X_MH     ___           ___                                                       X_RH
 //╰──────╯                                           ╰─────────────┴─────────────╯ ╰──────╯ ╰─────────────┴─────────────╯                                           ╰──────╯
